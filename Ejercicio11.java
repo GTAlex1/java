@@ -7,6 +7,7 @@ public class Ejercicio11 {
         Scanner sc = new Scanner(System.in);
         System.out.print("¿Quieres calcular Circulo (C) o Rectángulo (R)?: ");
         option = sc.next().charAt(0);
+        sc.close();
 
         switch (option) {
             case 'C':
