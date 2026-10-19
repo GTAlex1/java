@@ -6,4 +6,4 @@ public class TestMates {
         System.out.println(Mates.saludar(mensaje, 5));
         System.out.println(Mates.saludar("Adiós.", 10));
     }
-}
+} 
