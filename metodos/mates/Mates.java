@@ -1,4 +1,4 @@
-package mates;
+package metodos.mates;
 
 public class Mates {
     public static String saludar(String mensaje, int veces) {

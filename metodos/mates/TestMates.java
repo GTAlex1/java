@@ -1,4 +1,4 @@
-package mates;
+package metodos.mates;
 
 public class TestMates {
     public static void main(String[] args) {
