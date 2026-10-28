@@ -82,7 +82,7 @@ public class Hora {
 
     public void visualizar(){
         String fecha = String.format("%02d:%02d:%02d", this.hora, this.minuto, this.segundo);
-        System.out.println("La hora es" + fecha);
+        System.out.println("La hora es " + fecha);
     }
 
     public int segundosMedianoche() {
