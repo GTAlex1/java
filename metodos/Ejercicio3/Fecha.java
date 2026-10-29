@@ -20,7 +20,7 @@ public class Fecha {
         }
     }
 
-    public Fecha(int day, int month, int year) {
+    public setFecha(int day, int month, int year) {
         try {
             LocalDate.of(year, month, day);
             this.day = day;
