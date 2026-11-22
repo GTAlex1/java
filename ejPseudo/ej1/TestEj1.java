@@ -1,4 +1,4 @@
-package ejPseudo;
+package ejPseudo.ej1;
 
 public class TestEj1 {
     public static void main(String[] args) {
