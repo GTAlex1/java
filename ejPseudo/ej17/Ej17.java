@@ -18,9 +18,16 @@ package ejPseudo.ej17;
 public class Ej17 {
 
     public String obtenerDeporte(double temperatura) {
-
-        // Devuelve el deporte correspondiente
-        // según el intervalo de temperatura.
-
+        if (temperatura > 85) {
+            return "Natación";
+        } else if (temperatura > 70 && temperatura <= 85) {
+            return "Tenis";
+        } else if (temperatura > 32 && temperatura <= 70) {
+            return "Golf";
+        } else if (temperatura > 10 && temperatura <= 32) {
+            return "Esquí";
+        } else {
+            return "Deportes interior";
+        }
     }
 }
