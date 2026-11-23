@@ -7,13 +7,16 @@
 
 package ejBucles.ej6;
 
+import java.util.Arrays;
+
 public class Ej6 {
     public double[] calcularEstadisticas(double[] valores) {
         double[] datos= new double[2];
-        for (int i=0; i<valores.length; i++){
-            if (datos[0] < valores[1]){datos[0]=valores[1];}
-            
+        datos[0]= valores[0];
+        for (int i=1; i<valores.length; i++){
+            if (datos[0] > valores[i]){datos[0]=valores[i];}
         }
+        datos[1]= Arrays.stream(valores).average().orElse(0.0);
     return datos;
     }
 }
